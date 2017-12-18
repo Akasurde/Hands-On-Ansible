@@ -25,7 +25,7 @@ An inventory is a text file listing hostnames usually grouped by functionality. 
 
 ### Types of Ansible Inventories:
 ####  1. Static Inventory
-* Static inventory is default inventory and is defined in the /etc/ansible/ansible.cfg file. 
+* Static inventory is default inventory and is defined in the `/etc/ansible/ansible.cfg` file. 
 ####  2. Dynamic Inventory
 * Dynamic inventory to pull files from dynamic sources and cloud.
 * If you have the setup where you add and remove the hosts very frequently, then keeping your inventory always up-to-date become a little bit problematic. In such case Dynamic inventory comes into picture.
@@ -42,7 +42,7 @@ An inventory is a text file listing hostnames usually grouped by functionality. 
   #### Running ad hoc commands
  * To execute an ad hoc command, administrators need to execute the ansible command using the following syntax:
  
-    $ *ansible host-pattern -m module [-a 'module argument']* *[-i inventory]*
+    `$ *ansible host-pattern -m module [-a 'module argument']* *[-i inventory]*`
   
 ### 3. Ansible Configuration File
 * Simply Configuration file modifies the behaviour of ansible.
